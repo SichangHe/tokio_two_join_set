@@ -2,7 +2,7 @@
 description = "A two-JoinSet that keeps only the oldest and newest Tokio tasks."
 edition = "2021"
 license = "MIT"
-name = "two_join_set"
+name = "tokio_two_join_set"
 repository = "https://github.com/SichangHe/tokio_two_join_set"
 version = "0.0.0"
 
