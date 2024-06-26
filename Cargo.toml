@@ -1,0 +1,19 @@
+[package]
+description = "A two-JoinSet that keeps only the oldest and newest Tokio tasks."
+edition = "2021"
+license = "MIT"
+name = "two_join_set"
+repository = "https://github.com/SichangHe/tokio_two_join_set"
+version = "0.0.0"
+
+[dependencies]
+futures = "0.3"
+tokio = { version = "1", features = ["macros", "rt"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = [
+    "macros",
+    "rt-multi-thread",
+    "sync",
+    "time",
+] }
